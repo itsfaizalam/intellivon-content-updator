@@ -136,9 +136,9 @@ $tabs = [
     'healthcare' => 'Healthcare',
     'healthtech' => 'HealthTech',
     'metaverse' => 'Metaverse',
-    'music-streaming' => 'Music Streaming',
+    'music streaming' => 'Music Streaming',
     'nft' => 'NFT',
-    'simulation-game' => 'Simulation Game',
+    'simulation game' => 'Simulation Game',
 ];
 
 foreach ($tabs as $key => $label): ?>
