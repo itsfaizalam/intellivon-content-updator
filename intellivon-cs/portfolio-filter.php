@@ -144,7 +144,7 @@ $tabs = [
 foreach ($tabs as $key => $label): ?>
     <button
         data-type="<?php echo esc_attr($key); ?>"
-        class="portfolio-tab px-6 py-3 rounded-lg font-semibold border border-black bg-white text-black hover:bg-black hover:text-white transition">
+        class="portfolio-tab px-6 py-3 rounded-lg font-semibold border border-black bg-white text-black focus:bg-black hover:bg-black hover:text-white transition">
         <?php echo esc_html($label); ?>
     </button>
 <?php endforeach; ?>
