@@ -3,7 +3,7 @@
 
 /* =================================================
    SINGLE-FILE AJAX HANDLER (NO admin-ajax.php)
-================================================= */
+=================================================== */
 if (isset($_GET['portfolio_ajax'])) {
 
     require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
@@ -129,9 +129,9 @@ $parent_id = get_queried_object_id();
 $tabs = [
     '' => 'All',
     'recent' => 'Recent',
-    'ai' => 'AI',
     'blockchain' => 'Blockchain',
     'dating' => 'Dating',
+    'fintech' => 'FinTech',
     'gaming' => 'Gaming',
     'healthcare' => 'Healthcare',
     'healthtech' => 'HealthTech',
