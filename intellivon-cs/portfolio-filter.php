@@ -3,7 +3,7 @@
 
 /* =================================================
    SINGLE-FILE AJAX HANDLER (NO admin-ajax.php)
-=================================================== */
+================================================= */
 if (isset($_GET['portfolio_ajax'])) {
 
     require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
@@ -42,7 +42,6 @@ if (isset($_GET['portfolio_ajax'])) {
                 stripos(get_the_title(), $search) === false &&
                 !in_array($search, $case_types)
             ) continue;
-
             $found = true;
             ?>
 
@@ -53,7 +52,7 @@ if (isset($_GET['portfolio_ajax'])) {
                         'class' => 'w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110'
                     ]); ?>
 
-                    <div class="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 group-hover:opacity-0 transition-all duration-500"></div>
+                    <div class="absolute inset-0 bg-black/40 backdrop-blur-[0.5px] opacity-100 group-hover:opacity-0 transition-all duration-500"></div>
 
                     <!-- TAGS (BOTTOM) -->
                     <?php if (!empty($case_types)): ?>
