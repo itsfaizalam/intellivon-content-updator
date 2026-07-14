@@ -2210,9 +2210,6 @@
             <div class="text-md font-semibold text-[#656565]">TECHNOLOGY WE USE</div>
             <h2 class="text-4xl font-bold text-black1 font-urbanist leading-snug tracking-[0.5px] w-full md:gap-3">
                 Our Cutting-Edge Generative AI Development
-
-
-
                 <span class="text-gradient"> Tech Stack</span>
             </h2>
             <div class="w-full flex flex-col lg:flex-row justify-between">
