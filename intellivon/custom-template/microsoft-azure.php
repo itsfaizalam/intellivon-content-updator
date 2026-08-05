@@ -1094,433 +1094,382 @@ Evaluate existing systems for AI integration.
       </script>
   </section>
 
-<!-- CASE STUDY SECTION -->
-<section class="w-full bg-cover px-5 lg:px-10 relative">
-    <div class="container">
-      <div class="flex flex-col items-end justify-between mt-6 mb-3 w-full">
-        <div class="w-full">
-          <div class="w-full flex flex-col gap-5 items-start">
-            <!-- Section Heading -->
-            <div class="text-md font-semibold text-[#656565]">CASE STUDY</div>
-            <div class="flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between w-full">
-              <div class="w-full lg:w-11/12 text-4xl gap-3 font-bold text-black1 font-urbanist leading-snug tracking-[0.5px]">
-                Our <span class="text-gradient">AI Solutions</span> That Made
-                a Difference
-              </div>
-              <div class="flex gap-2 mt-8 md:mt-0">
-                <!-- Prev -->
-                <svg id="case-study-prev" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" class="cursor-pointer">
-                  <mask id="mask-prev" maskUnits="userSpaceOnUse" x="1" y="1" width="48" height="48">
-                    <path d="M25 4.17C13.49 4.17 4.17 13.49 4.17 25C4.17 36.51 13.49 45.83 25 45.83C36.51 45.83 45.83 36.51 45.83 25C45.83 13.49 36.51 4.17 25 4.17Z" fill="white" stroke="white" stroke-width="5.33" stroke-linejoin="round" />
-                    <path d="M28.13 15.63L18.75 25L28.13 34.38" stroke="black" stroke-width="5.33" stroke-linecap="round" stroke-linejoin="round" />
-                  </mask>
-                  <g mask="url(#mask-prev)">
-                    <path d="M50 50H0V0H50V50Z" fill="url(#paint-prev)" />
-                  </g>
-                  <defs>
-                    <linearGradient id="paint-prev" x1="50" y1="25" x2="-7.5" y2="25" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#7C3BAF" />
-                      <stop offset="1" stop-color="#E61C42" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-  
-                <!-- Next -->
-                <svg id="case-study-next" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" class="cursor-pointer">
-                  <mask id="mask-next" maskUnits="userSpaceOnUse" x="1" y="1" width="48" height="48">
-                    <path d="M25 45.83C36.51 45.83 45.83 36.51 45.83 25C45.83 13.49 36.51 4.17 25 4.17C13.49 4.17 4.17 13.49 4.17 25C4.17 36.51 13.49 45.83 25 45.83Z" fill="white" stroke="white" stroke-width="5.33" stroke-linejoin="round" />
-                    <path d="M21.88 34.38L31.25 25L21.88 15.63" stroke="black" stroke-width="5.33" stroke-linecap="round" stroke-linejoin="round" />
-                  </mask>
-                  <g mask="url(#mask-next)">
-                    <path d="M0 0H50V50H0V0Z" fill="url(#paint-next)" />
-                  </g>
-                  <defs>
-                    <linearGradient id="paint-next" x1="5" y1="31" x2="62" y2="32" gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#7C3BAF" />
-                      <stop offset="1" stop-color="#E61C42" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-  
-            <!-- SLIDER -->
-            <div id="caseStudySlider" class="relative w-full overflow-hidden">
-              <div id="sliderTrack" class="flex flex-nowrap transition-transform duration-500 ease-in-out m-5 gap-x-1" style="transform: translateX(0%)">
-                <!-- Slide 1 -->
-                <div class="w-full h-full shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide" style="height: 100%">
-                  <div class="w-full lg:w-3/5 flex flex-col justify-between gap-8 py-8 px-4 lg:py-14 lg:pl-8">
-                    <div class="flex flex-col w-full gap-5 pb-8 border-b border-b-[#99899d]">
-                      <div class="text-2xl lg:text-3xl font-semibold">
-                        AI-Driven Customized Healthcare Predictive Tool
-                      </div>
-                      <div class="text-[#333] leading-7 tracking-wide">
-                        <p class="hidden lg:block">
-                          Intellivon partnered with a multi-region healthcare enterprise to design and deploy an AI-powered predictive platform tailored for enterprise-scale healthcare operations. Leveraging millions of anonymized electronic health records, the system delivers real-time, personalized care recommendations that evolve with each patient’s longitudinal data.
-                        </p>
-                        <p class="lg:hidden leading-0 line-clamp-5 read-more-content">
-                          Intellivon partnered with a multi-region healthcare enterprise to design and deploy an AI-powered predictive platform tailored for enterprise-scale healthcare operations. Leveraging millions of anonymized electronic health records, the system delivers real-time, personalized care recommendations that evolve with each patient’s longitudinal data.
-                        </p>
-                        <button class="read-more-toggle text-sm text-[#7C3BAF] mt-2 lg:hidden">
-                          Read More
-                        </button>
-                      </div>
+<!-- LATEST CASE STUDY SECTION -->
+<section class="w-full px-5 lg:px-10 bg-cover relative">
+  <div class="container">
+    <div class="flex flex-col items-end justify-between mt-6 mb-3 w-full">
+      <div class="w-full flex flex-col gap-5 items-start">
+        <div class="text-md font-semibold text-[#656565]">CASE STUDY</div>
+        <div class="flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between w-full">
+          <h2 class="w-full lg:w-11/12 text-4xl gap-3 font-bold text-black1 font-urbanist leading-snug tracking-[0.5px]">
+            Our <span class="text-gradient">AI Solutions</span> That Made a Difference
+          </h2>
+          <div class="flex gap-2 mt-8 md:mt-0">
+            <svg id="custom-cs-prev" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+              fill="none" class="cursor-pointer">
+              <mask id="mask-prev" maskUnits="userSpaceOnUse" x="1" y="1" width="48" height="48">
+                <path
+                  d="M25 4.17C13.49 4.17 4.17 13.49 4.17 25C4.17 36.51 13.49 45.83 25 45.83C36.51 45.83 45.83 36.51 45.83 25C45.83 13.49 36.51 4.17 25 4.17Z"
+                  fill="white" stroke="white" stroke-width="5.33" stroke-linejoin="round" />
+                <path d="M28.13 15.63L18.75 25L28.13 34.38" stroke="black" stroke-width="5.33" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </mask>
+              <g mask="url(#mask-prev)">
+                <path d="M50 50H0V0H50V50Z" fill="url(#paint-prev)" />
+              </g>
+              <defs>
+                <linearGradient id="paint-prev" x1="50" y1="25" x2="-7.5" y2="25" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7C3BAF" />
+                  <stop offset="1" stop-color="#E61C42" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg id="custom-cs-next" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+              fill="none" class="cursor-pointer">
+              <mask id="mask-next" maskUnits="userSpaceOnUse" x="1" y="1" width="48" height="48">
+                <path
+                  d="M25 45.83C36.51 45.83 45.83 36.51 45.83 25C45.83 13.49 36.51 4.17 25 4.17C13.49 4.17 4.17 13.49 4.17 25C4.17 36.51 13.49 45.83 25 45.83Z"
+                  fill="white" stroke="white" stroke-width="5.33" stroke-linejoin="round" />
+                <path d="M21.88 34.38L31.25 25L21.88 15.63" stroke="black" stroke-width="5.33" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </mask>
+              <g mask="url(#mask-next)">
+                <path d="M0 0H50V50H0V0Z" fill="url(#paint-next)" />
+              </g>
+              <defs>
+                <linearGradient id="paint-next" x1="5" y1="31" x2="62" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7C3BAF" />
+                  <stop offset="1" stop-color="#E61C42" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+
+        <div class="flex justify-evenly items-center gap-2 md:gap-5 w-full">
+          <div class="swiper swiper-case-study w-full">
+            <div class="swiper-wrapper bg-[#F2F7FF]">
+              <div class="swiper-slide w-full h-[500px] shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5 px-5 py-4">
+                  <div class="flex flex-col w-full gap-2 pb-4 border-b border-b-[#99899d]">
+                    <h3 class="text-xl md:text-3xl font-semibold">
+                      AI-Driven Customized Healthcare Predictive Tool
+                    </h3>
+                    <div class="text-[#333] leading-7 tracking-wide">
+                      <p class="hidden xl:block text-md">
+                        Intellivon partnered with a multi-region healthcare enterprise to design and deploy an AI-powered predictive platform tailored for enterprise-scale healthcare operations. Leveraging millions of anonymized electronic health records, the system delivers real-time, personalized care recommendations that evolve with each patient’s longitudinal data.
+                      </p>
+                      <p class="xl:hidden leading-0 line-clamp-5 read-more-content text-sm">
+                        Intellivon partnered with a multi-region healthcare enterprise to design and deploy an AI-powered predictive platform tailored for enterprise-scale healthcare operations. Leveraging millions of anonymized electronic health records, the system delivers real-time, personalized care recommendations that evolve with each patient’s longitudinal data.
+                      </p>
                     </div>
-                    <ul class="flex flex-col gap-5 list-disc pl-5">
-                      <li class="text-lg lg:text-xl">
-                        <span class="text-lg lg:text-xl font-semibold">
-                          35% 
-                        </span>
-                        <span>reduction in patient readmission rates within the first year</span>
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        <span class="text-lg lg:text-xl font-semibold">
-                          25% 
-                        </span>
-                        <span>increase in patient satisfaction scores, based on post-discharge surveys</span>
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        Seamlessly integrated with existing EHR systems and met HIPAA compliance requirements
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        Enabled scalable, real-time clinical decision support across multiple hospital units
-                      </li>
-                    </ul>
-  
-                    <!-- Explore More button -->
-                    <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
+                  </div>
+                  <ul class="flex flex-col gap-5 list-disc pl-5">
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">35%</span>
+                      <span> reduction in patient readmission rates within the first year</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">25%</span>
+                      <span> increase in patient satisfaction scores, based on post-discharge surveys</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Seamlessly integrated with existing EHR systems and met HIPAA compliance requirements
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Enabled scalable, real-time clinical decision support across multiple hospital units
+                    </li>
+                  </ul>
+                  <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
                     <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
                       Explore more
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+                          fill="white" />
                       </svg>
                     </div>
-                    </a>
-                  </div>
-                  <div class="hidden lg:block w-full lg:w-2/5 max-h-[20rem] lg:max-h-[50rem] min-h-[50rem] overflow-hidden rounded-r-xl">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service-case-study-1.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
-                  </div>
+                  </a>
                 </div>
-  
-                <!-- Slide 2 -->
-                <div class="w-full h-full shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide" style="height: 100%">
-                  <div class="w-full lg:w-3/5 flex flex-col justify-between gap-8 py-8 px-4 lg:py-14 lg:pl-8">
-                    <div class="flex flex-col w-full gap-5 pb-8 border-b border-b-[#99899d]">
-                      <div class="text-2xl lg:text-3xl font-semibold">
-                        AI-Powered Enhanced Product Discovery
-                      </div>
-                      <div class="text-[#333] leading-7 tracking-wide">
-                        <p class="hidden lg:block">
-                          We partnered with a global retail enterprise to revolutionize its digital storefront experience. By analyzing high-volume behavioral data in real-time, we implemented a machine learning-driven recommendation engine that delivers dynamic, personalized product suggestions at scale.
-                        </p>
-                        <p class="lg:hidden line-clamp-5 read-more-content">
-                          We partnered with a global retail enterprise to revolutionize its digital storefront experience. By analyzing high-volume behavioral data in real-time, we implemented a machine learning-driven recommendation engine that delivers dynamic, personalized product suggestions at scale.
-                        </p>
-                        <button class="read-more-toggle text-sm text-[#7C3BAF] mt-2 lg:hidden">
-                          Read More
-                        </button>
-                      </div>
+                <div class="hidden lg:block w-full lg:w-1/2 h-[500px] overflow-hidden rounded-r-xl">
+                  <img src="https://intellivon.com/wp-content/uploads/2026/08/1-Al-Driven-Customized-Healthcare-Predictive-Tool.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
+                </div>
+              </div>
+
+              <div class="swiper-slide w-full h-[500px] shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5 px-5 py-4">
+                  <div class="flex flex-col w-full gap-2 pb-4 border-b border-b-[#99899d]">
+                    <h3 class="text-xl md:text-3xl font-semibold">
+                      AI-Powered Enhanced Product Discovery
+                    </h3>
+                    <div class="text-[#333] leading-7 tracking-wide">
+                      <p class="hidden xl:block text-md">
+                        We partnered with a global retail enterprise to revolutionize its digital storefront experience. By analyzing high-volume behavioral data in real-time, we implemented a machine learning-driven recommendation engine that delivers dynamic, personalized product suggestions at scale.
+                      </p>
+                      <p class="xl:hidden leading-0 line-clamp-5 read-more-content text-sm">
+                        We partnered with a global retail enterprise to revolutionize its digital storefront experience. By analyzing high-volume behavioral data in real-time, we implemented a machine learning-driven recommendation engine that delivers dynamic, personalized product suggestions at scale.
+                      </p>
                     </div>
-                    <ul class="flex flex-col gap-5 list-disc pl-5">
-                      <li class="text-lg lg:text-xl">
-                        <span class="text-lg lg:text-xl font-semibold">
-                          45% 
-                        </span>
-                        <span>increase in conversion rates from AI-powered personalized recommendations</span>
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        <span class="text-lg lg:text-xl font-semibold">
-                          30% 
-                        </span>
-                        <span>increase in average order value through dynamic cross-selling and upselling</span>
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        Integrated seamlessly with the client's existing e-commerce platform at scale
-                      </li>
-                      <li class="text-lg lg:text-xl">
-                        Enabled granular segmentation and real-time targeting across millions of SKUs
-                      </li>
-                    </ul>
-  
-                    <!-- Explore More button -->
-                    <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
+                  </div>
+                  <ul class="flex flex-col gap-5 list-disc pl-5">
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">45%</span>
+                      <span> increase in conversion rates from AI-powered personalized recommendations</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">30%</span>
+                      <span> increase in average order value through dynamic cross-selling and upselling</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Integrated seamlessly with the client's existing e-commerce platform at scale
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Enabled granular segmentation and real-time targeting across millions of SKUs
+                    </li>
+                  </ul>
+                  <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
                     <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
                       Explore more
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+                          fill="white" />
                       </svg>
                     </div>
-                    </a>
-                  </div>
-                  <div class="hidden lg:block w-full lg:w-2/5 max-h-[20rem] lg:max-h-[50rem] min-h-[50rem] overflow-hidden rounded-r-xl">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service-case-study-2.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
-                  </div>
+                  </a>
                 </div>
-  
-                <!-- Slide 3 -->
-<div class="w-full h-full shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide" style="height: 100%">
-    <div class="w-full lg:w-3/5 flex flex-col justify-between gap-8 py-8 px-4 lg:py-14 lg:pl-8">
-      <div class="flex flex-col w-full gap-5 pb-8 border-b border-b-[#99899d]">
-        <div class="text-2xl lg:text-3xl font-semibold">
-          AI-Powered Financial CRM
-        </div>
-        <div class="text-[#333] leading-7 tracking-wide">
-          <p class="hidden lg:block">
-            Intellivon partnered with a publicly traded fintech company that manages millions of customer accounts to rearchitect its CRM for the AI era. Our solution integrated behavioral and transactional data into a real-time engine that predicted customer needs and automated tailored product recommendations—boosting both conversion and lifetime value.
-          </p>
-          <p class="lg:hidden line-clamp-5 read-more-content">
-            Intellivon partnered with a publicly traded fintech company that manages millions of customer accounts to rearchitect its CRM for the AI era. Our solution integrated behavioral and transactional data into a real-time engine that predicted customer needs and automated tailored product recommendations—boosting both conversion and lifetime value.
-          </p>
-          <button class="read-more-toggle text-sm text-[#7C3BAF] mt-2 lg:hidden">
-            Read More
-          </button>
-        </div>
-      </div>
-      <ul class="flex flex-col gap-5 list-disc pl-5">
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            40% 
-          </span>
-          <span>increase in customer lifetime value through targeted, behavior-based interactions</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            20%
-          </span>
-          <span>lift in conversion rates for tailored financial products</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          Achieved full compliance with financial data regulations and security standards
-        </li>
-      </ul>
-  
-      <!-- Explore More button -->
-      <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
-      <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
-        Explore more
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="white"/>
-        </svg>
-      </div>
-      </a>
-    </div>
-    <div class="hidden lg:block w-full lg:w-2/5 max-h-[20rem] lg:max-h-[50rem] min-h-[50rem] overflow-hidden rounded-r-xl">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service-case-study-3.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
-    </div>
-  </div>
+                <div class="hidden lg:block w-full lg:w-1/2 h-[500px] overflow-hidden rounded-r-xl">
+                  <img src="https://intellivon.com/wp-content/uploads/2026/08/2-Al-Powered-Enhanced-Product-Discovery.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
+                </div>
+              </div>
 
-  <!-- Slide 4 -->
-<div class="w-full h-full shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide" style="height: 100%">
-    <div class="w-full lg:w-3/5 flex flex-col justify-between gap-8 py-8 px-4 lg:py-14 lg:pl-8">
-      <div class="flex flex-col w-full gap-5 pb-8 border-b border-b-[#99899d]">
-        <div class="text-2xl lg:text-3xl font-semibold">
-          AI-Enhanced Predictive Analytics Platform
-        </div>
-        <div class="text-[#333] leading-7 tracking-wide">
-          <p class="hidden lg:block">
-            A SaaS enterprise partnered with Intellivon to develop an enterprise-grade predictive analytics platform. Designed to enhance decision-making across sales, marketing, and customer success, the system used advanced machine learning to forecast churn, model customer behavior, and generate proactive insights.
-          </p>
-          <p class="lg:hidden line-clamp-5 read-more-content">
-            A SaaS enterprise partnered with Intellivon to develop an enterprise-grade predictive analytics platform. Designed to enhance decision-making across sales, marketing, and customer success, the system used advanced machine learning to forecast churn, model customer behavior, and generate proactive insights.
-          </p>
-          <button class="read-more-toggle text-sm text-[#7C3BAF] mt-2 lg:hidden">
-            Read More
-          </button>
-        </div>
-      </div>
-      <ul class="flex flex-col gap-5 list-disc pl-5">
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            $5M+
-          </span>
-          <span>increase in annual revenue through predictive up-selling and customer retention strategies</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            30%
-          </span>
-          <span>faster decision-making reported by business leaders using the platform’s insights</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          Delivered real-time visibility across 40+ distribution centers
-        </li>
-      </ul>
-  
-      <!-- Explore More button -->
-      <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
-      <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
-        Explore more
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="white"/>
-        </svg>
-      </div>
-      </a>
-    </div>
-    <div class="hidden lg:block w-full lg:w-2/5 max-h-[20rem] lg:max-h-[50rem] min-h-[50rem] overflow-hidden rounded-r-xl">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service-case-study-4.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
-    </div>
-  </div>
+              <div class="swiper-slide w-full h-[500px] shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5 px-5 py-4">
+                  <div class="flex flex-col w-full gap-2 pb-4 border-b border-b-[#99899d]">
+                    <h3 class="text-xl md:text-3xl font-semibold">
+                      AI-Powered Financial CRM
+                    </h3>
+                    <div class="text-[#333] leading-7 tracking-wide">
+                      <p class="hidden xl:block text-md">
+                        Intellivon partnered with a publicly traded fintech company that manages millions of customer accounts to rearchitect its CRM for the AI era. Our solution integrated behavioral and transactional data into a real-time engine that predicted customer needs and automated tailored product recommendations—boosting both conversion and lifetime value.
+                      </p>
+                      <p class="xl:hidden leading-0 line-clamp-5 read-more-content text-sm">
+                        Intellivon partnered with a publicly traded fintech company that manages millions of customer accounts to rearchitect its CRM for the AI era. Our solution integrated behavioral and transactional data into a real-time engine that predicted customer needs and automated tailored product recommendations—boosting both conversion and lifetime value.
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="flex flex-col gap-5 list-disc pl-5">
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">40%</span>
+                      <span> increase in customer lifetime value through targeted, behavior-based interactions</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">20%</span>
+                      <span> lift in conversion rates for tailored financial products</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Achieved full compliance with financial data regulations and security standards
+                    </li>
+                  </ul>
+                  <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
+                    <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
+                      Explore more
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+                          fill="white" />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="hidden lg:block w-full lg:w-1/2 h-[500px] overflow-hidden rounded-r-xl">
+                  <img src="https://intellivon.com/wp-content/uploads/2026/08/3-Al-Powered-Financial-CRM.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
+                </div>
+              </div>
 
-  <!-- Slide 5 -->
-<div class="w-full h-full shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide" style="height: 100%">
-    <div class="w-full lg:w-3/5 flex flex-col justify-between gap-8 py-8 px-4 lg:py-14 lg:pl-8">
-      <div class="flex flex-col w-full gap-5 pb-8 border-b border-b-[#99899d]">
-        <div class="text-2xl lg:text-3xl font-semibold">
-          AI-Powered Supply Chain Optimization Platform
-        </div>
-        <div class="text-[#333] leading-7 tracking-wide">
-          <p class="hidden lg:block">
-            Intellivon partnered with a global consumer goods enterprise to modernize and optimize its complex supply chain infrastructure using enterprise-grade AI. We deployed an AI-powered optimization platform that unified data from ERP systems, warehouse management, and third-party logistics providers to drive accurate forecasting, intelligent inventory control, and real-time logistics insights.
-          </p>
-          <p class="lg:hidden line-clamp-5 read-more-content">
-            Intellivon partnered with a global consumer goods enterprise to modernize and optimize its complex supply chain infrastructure using enterprise-grade AI. We deployed an AI-powered optimization platform that unified data from ERP systems, warehouse management, and third-party logistics providers to drive accurate forecasting, intelligent inventory control, and real-time logistics insights.
-          </p>
-          <button class="read-more-toggle text-sm text-[#7C3BAF] mt-2 lg:hidden">
-            Read More
-          </button>
-        </div>
-      </div>
-      <ul class="flex flex-col gap-5 list-disc pl-5">
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            32% 
-          </span>
-          <span>reduction in excess inventory through predictive demand forecasting</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          <span class="text-lg lg:text-xl font-semibold">
-            22% 
-          </span>
-          <span>decrease in logistics and transportation costs from AI-optimized routing and load balancing</span>
-        </li>
-        <li class="text-lg lg:text-xl">
-          Achieved 99.7% forecasting accuracy for high-volume SKUs across geographies
-        </li>
-        <li class="text-lg lg:text-xl">
-          Delivered real-time visibility across 40+ distribution centers
-        </li>
-      </ul>
-  
-      <!-- Explore More button -->
-      <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
-      <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
-        Explore more
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="white"/>
-        </svg>
-      </div>
-      </a>
-    </div>
-    <div class="hidden lg:block w-full lg:w-2/5 overflow-hidden rounded-r-xl">
-      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service-case-study-5.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
-    </div>
-  </div>
-  
+              <div class="swiper-slide w-full h-[500px] shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5 px-5 py-4">
+                  <div class="flex flex-col w-full gap-2 pb-4 border-b border-b-[#99899d]">
+                    <h3 class="text-xl md:text-3xl font-semibold">
+                      AI-Enhanced Predictive Analytics Platform
+                    </h3>
+                    <div class="text-[#333] leading-7 tracking-wide">
+                      <p class="hidden xl:block text-md">
+                        A SaaS enterprise partnered with Intellivon to develop an enterprise-grade predictive analytics platform. Designed to enhance decision-making across sales, marketing, and customer success, the system used advanced machine learning to forecast churn, model customer behavior, and generate proactive insights.
+                      </p>
+                      <p class="xl:hidden leading-0 line-clamp-5 read-more-content text-sm">
+                        A SaaS enterprise partnered with Intellivon to develop an enterprise-grade predictive analytics platform. Designed to enhance decision-making across sales, marketing, and customer success, the system used advanced machine learning to forecast churn, model customer behavior, and generate proactive insights.
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="flex flex-col gap-5 list-disc pl-5">
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">$5M+</span>
+                      <span> increase in annual revenue through predictive up-selling and customer retention strategies</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">30%</span>
+                      <span> faster decision-making reported by business leaders using the platform’s insights</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Delivered real-time visibility across 40+ distribution centers
+                    </li>
+                  </ul>
+                  <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
+                    <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
+                      Explore more
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+                          fill="white" />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="hidden lg:block w-full lg:w-1/2 h-[500px] overflow-hidden rounded-r-xl">
+                  <img src="https://intellivon.com/wp-content/uploads/2026/08/4-Al-Enhanced-Predictive-Analytics-Platform.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
+                </div>
+              </div>
+
+              <div class="swiper-slide w-full h-[500px] shrink-0 flex flex-col lg:flex-row rounded-xl shadow-purple bg-white case-study-slide">
+                <div class="w-full lg:w-1/2 flex flex-col gap-5 px-5 py-4">
+                  <div class="flex flex-col w-full gap-2 pb-4 border-b border-b-[#99899d]">
+                    <h3 class="text-xl md:text-3xl font-semibold">
+                      AI-Powered Supply Chain Optimization Platform
+                    </h3>
+                    <div class="text-[#333] leading-7 tracking-wide">
+                      <p class="hidden xl:block text-md">
+                        Intellivon partnered with a global consumer goods enterprise to modernize and optimize its complex supply chain infrastructure using enterprise-grade AI. We deployed an AI-powered optimization platform that unified data from ERP systems, warehouse management, and third-party logistics providers to drive accurate forecasting, intelligent inventory control, and real-time logistics insights.
+                      </p>
+                      <p class="xl:hidden leading-0 line-clamp-5 read-more-content text-sm">
+                        Intellivon partnered with a global consumer goods enterprise to modernize and optimize its complex supply chain infrastructure using enterprise-grade AI. We deployed an AI-powered optimization platform that unified data from ERP systems, warehouse management, and third-party logistics providers to drive accurate forecasting, intelligent inventory control, and real-time logistics insights.
+                      </p>
+                    </div>
+                  </div>
+                  <ul class="flex flex-col gap-5 list-disc pl-5">
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">32%</span>
+                      <span> reduction in excess inventory through predictive demand forecasting</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      <span class="text-lg lg:text-xl font-semibold">22%</span>
+                      <span> decrease in logistics and transportation costs from AI-optimized routing and load balancing</span>
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Achieved 99.7% forecasting accuracy for high-volume SKUs across geographies
+                    </li>
+                    <li class="text-lg lg:text-xl">
+                      Delivered real-time visibility across 40+ distribution centers
+                    </li>
+                  </ul>
+                  <a href="https://intellivon.com/ai-strategy-call-booking-confirmation/" target="_blank">
+                    <div class="flex gap-5 py-3 px-5 items-center bg-[#28103B] text-white text-lg rounded-full w-fit" role="button">
+                      Explore more
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+                          fill="white" />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="hidden lg:block w-full lg:w-1/2 h-[500px] overflow-hidden rounded-r-xl">
+                  <img src="https://intellivon.com/wp-content/uploads/2026/08/5-Al-Powered-Supply-Chain-Optimization-Platform.webp" class="w-full h-full object-cover mask-top rounded-r-xl" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-  
-        <!-- Dots -->
-        <div id="case-study-dots" class="flex flex-wrap gap-2 items-center justify-center mt-5 mx-auto">
-          <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300" style="width: 70px; opacity: 1"></div>
-          <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300" style="width: 28px; opacity: 0.5"></div>
-          <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300" style="width: 20px; opacity: 0.5"></div>
-        </div>
-  
-        <!-- Button -->
-        <div class="m-auto my-5 rounded-full bg-white flex gap-3 w-fit p-3 z-20 outline-gradient">
-          <div>View more Projects</div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z" fill="url(#paint0_linear_2_494)"/>
-            <defs>
-              <linearGradient id="paint0_linear_2_494" x1="6.5" y1="7" x2="22" y2="13" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#7C3BAF"/>
-                <stop offset="1" stop-color="#E61C42"/>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
       </div>
     </div>
-  
-    <!-- Case study Script -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const sliderTrack = document.getElementById("sliderTrack");
-        const slides = sliderTrack.querySelectorAll(".case-study-slide");
-        const prevBtn = document.getElementById("case-study-prev");
-        const nextBtn = document.getElementById("case-study-next");
-        const navDots = document.getElementById("case-study-dots");
-  
-        let currentSlide = 0;
-        let autoScrollInterval = null;
-        const autoScrollDelay = 2000; // 5 seconds
-  
-        // Create navigation dots dynamically
-        navDots.innerHTML = "";
-        slides.forEach((_, i) => {
-          const dot = document.createElement("div");
-          dot.className = "h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300";
-          dot.style.width = i === 0 ? "70px" : "28px";
-          dot.style.opacity = i === 0 ? "1" : "0.5";
-          navDots.appendChild(dot);
-        });
-  
-        const updateSlider = () => {
-          sliderTrack.style.transform = `translateX(-${currentSlide * 100}%)`;
-  
-          [...navDots.children].forEach((dot, i) => {
-            dot.style.opacity = i === currentSlide ? "1" : "0.5";
-            dot.style.width = i === currentSlide ? "70px" : "28px";
-          });
-        };
-  
-        const stopAutoScroll = () => {
-          if (autoScrollInterval) {
-            clearInterval(autoScrollInterval);
-            autoScrollInterval = null;
-          }
-        };
-  
-        const startAutoScroll = () => {
-          stopAutoScroll();
-          autoScrollInterval = setInterval(() => {
-            currentSlide = (currentSlide + 1) % slides.length;
-            updateSlider();
-          }, autoScrollDelay);
-        };
-  
-        prevBtn.addEventListener("click", () => {
-          stopAutoScroll();
-          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-          updateSlider();
-          startAutoScroll();
-        });
-  
-        nextBtn.addEventListener("click", () => {
-          stopAutoScroll();
-          currentSlide = (currentSlide + 1) % slides.length;
-          updateSlider();
-          startAutoScroll();
-        });
-  
-        // Read more toggle
-        document.querySelectorAll(".read-more-toggle").forEach((button) => {
-          button.addEventListener("click", () => {
-            const content = button.previousElementSibling;
-            content.classList.toggle("line-clamp-5");
-            button.innerText = content.classList.contains("line-clamp-5")
-              ? "Read More"
-              : "Show Less";
-          });
-        });
-  
-        updateSlider();
-        startAutoScroll(); // Start auto scroll on page load
+
+    <div id="case-study-dots" class="flex flex-wrap gap-2 items-center justify-center mt-5 mx-auto">
+      <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300"
+        style="width: 70px; opacity: 1"></div>
+      <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300"
+        style="width: 28px; opacity: 0.5"></div>
+      <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300"
+        style="width: 20px; opacity: 0.5"></div>
+      <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300"
+        style="width: 20px; opacity: 0.5"></div>
+      <div class="h-[12px] rounded-full bg-gradient-to-r from-[#7C3BAF] to-[#E61C42] transition-all duration-300"
+        style="width: 20px; opacity: 0.5"></div>
+    </div>
+
+    <a class="m-auto my-5 rounded-full bg-white flex gap-3 w-fit p-3 z-20 outline-gradient"
+      href="https://intellivon.com/portfolio/" target="_blank">
+      <div>View more Projects</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M11.9999 22.1004C14.546 22.1004 16.9878 21.089 18.7881 19.2886C20.5885 17.4883 21.5999 15.0465 21.5999 12.5004C21.5999 9.95431 20.5885 7.51252 18.7881 5.71217C16.9878 3.91182 14.546 2.90039 11.9999 2.90039C9.45382 2.90039 7.01203 3.91182 5.21168 5.71217C3.41133 7.51252 2.3999 9.95431 2.3999 12.5004C2.3999 15.0465 3.41133 17.4883 5.21168 19.2886C7.01203 21.089 9.45382 22.1004 11.9999 22.1004ZM8.0999 11.6004C7.86121 11.6004 7.63229 11.6952 7.46351 11.864C7.29472 12.0328 7.1999 12.2617 7.1999 12.5004C7.1999 12.7391 7.29472 12.968 7.46351 13.1368C7.63229 13.3056 7.86121 13.4004 8.0999 13.4004H13.6079L11.0879 15.7404C10.9129 15.9027 10.8095 16.1279 10.8005 16.3665C10.7915 16.605 10.8776 16.8373 11.0399 17.0124C11.2022 17.1874 11.4274 17.2908 11.666 17.2998C11.9045 17.3088 12.1369 17.2227 12.3119 17.0604L16.5119 13.1604C16.6028 13.0761 16.6753 12.974 16.7249 12.8605C16.7744 12.7469 16.8 12.6243 16.8 12.5004C16.8 12.3765 16.7744 12.2539 16.7249 12.1403C16.6753 12.0267 16.6028 11.9246 16.5119 11.8404L12.3119 7.94039C12.2252 7.86002 12.1236 7.79751 12.0127 7.75643C11.9019 7.71534 11.7841 7.69649 11.666 7.70095C11.4274 7.70995 11.2022 7.81335 11.0399 7.98839C10.8776 8.16343 10.7915 8.39579 10.8005 8.63433C10.8095 8.87288 10.9129 9.09808 11.0879 9.26039L13.6079 11.6004H8.0999Z"
+          fill="url(#paint0_linear_2_494)" />
+        <defs>
+          <linearGradient id="paint0_linear_2_494" x1="6.5" y1="7" x2="22" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7C3BAF" />
+            <stop offset="1" stop-color="#E61C42" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </a>
+  </div>
+
+  <script>
+    const csSwiper = new Swiper('.swiper-case-study', {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '#custom-cs-next',
+        prevEl: '#custom-cs-prev',
+      },
+      centeredSlides: false,
+      centeredSlidesBounds: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+        768: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        },
+        1024: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+        }
+      }
+    });
+
+    const caseStudySlides = document.querySelectorAll('.case-study-slide');
+    caseStudySlides.forEach((slide) => {
+      slide.addEventListener('mouseenter', () => {
+        csSwiper.autoplay.stop();
       });
-    </script>
-  </section>
+
+      slide.addEventListener('mouseleave', () => {
+        csSwiper.autoplay.start();
+      });
+    });
+
+    csSwiper.on('slideChange', function () {
+      const dots = document.querySelectorAll('#case-study-dots div');
+      dots.forEach((dot, index) => {
+        if (index === csSwiper.realIndex) {
+          dot.style.width = '70px';
+          dot.style.opacity = '1';
+        } else {
+          dot.style.width = '28px';
+          dot.style.opacity = '0.5';
+        }
+      });
+    });
+  </script>
+</section>
 
 <!-- USECASES -->
 <section class="w-full px-5 lg:px-10 py-14 lg:py-20 bg-[#F2F7FF] relative overflow-hidden">
@@ -3573,179 +3522,60 @@ Transformers
    </script>
            </section>
 
-           <!-- BLOGS -->
-  
+  <!-- BLOGS -->
   <!-- BLOGS Section with Swiper -->
   <section class="py-24 w-full bg-cover px-5 lg:px-10 relative overflow-hidden">
     <div class="container">
       <div class="flex items-end justify-between mt-6 mb-3 w-full">
         <div class="w-full">
           <div class="w-full flex flex-col gap-5 items-start">
-            <div class="text-md font-semibold text-[#656565]">
-              BLOGS
-            </div>
-  
-            <div class="flex flex-col lg:flex-row gap-5 lg:gap-0 w-full justify-between">
+            <div class="text-md font-semibold text-[#656565]">BLOGS</div>
+            <div
+              class="flex flex-col lg:flex-row gap-5 lg:gap-0 w-full justify-between"
+            >
               <div
                 class="w-full text-4xl flex-wrap gap-3 flex items-center font-bold text-black1 font-urbanist"
               >
-                The Latest from <div class="text-gradient">Intellivon</div>
+                The Latest from
+                <div class="text-gradient">Intellivon</div>
               </div>
-            <div class="lg:w-1/3">
+              <div class="lg:w-1/3">
                 <a href="https://intellivon.com/blog/" target="_blank">
-                <button
-                  type="button"
-                  class="relative px-3 py-3 w-fit flex justify-center text-white font-medium rounded-full bg-white overflow-hidden group"
-                >
-                  <span
-                    class="relative z-10 text-blue text-nowrap text-sm lg:text-md items-center lg:items-normal flex gap-2"
-                    >Know More About Our Insights
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/know-more-capabilities-arrow.svg" />
-                  </span>
-                  <div
-                    class="absolute inset-0 bg-gradient-to-l from-[#ab00ff] via-[#7000eb] to-[#00c8eb] rounded-full p-[1px]"
+                  <button
+                    type="button"
+                    class="relative px-3 py-3 w-fit flex justify-center text-white font-medium rounded-full bg-white overflow-hidden group"
                   >
-                    <div class="h-full w-full bg-white rounded-full"></div>
-                  </div>
-                </button>
+                    <span
+                      class="relative z-10 text-blue text-nowrap text-sm lg:text-md items-center lg:items-normal flex gap-2"
+                    >
+                      Know More About Our Insights
+                      <img
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/know-more-capabilities-arrow.svg"
+                      />
+                    </span>
+                    <div
+                      class="absolute inset-0 bg-gradient-to-l from-[#ab00ff] via-[#7000eb] to-[#00c8eb] rounded-full p-[1px]"
+                    >
+                      <div class="h-full w-full bg-white rounded-full"></div>
+                    </div>
+                  </button>
                 </a>
               </div>
             </div>
-  
-            <div class="text-[#333333] lg:w-1/2">
-              Our exclusive platform where we share expert perspectives and guidance
-              for your AI journey.
-            </div>
-  
-            <!-- Swiper wrapper: prev button, swiper-container, next button -->
+            <h3 class="text-grey1 text-base font-medium lg:w-1/2">
+              Our exclusive platform where we share expert perspectives and
+              guidance for your AI journey.
+            </h3>
             <div class="flex gap-5 w-full items-center z-10">
-              <!-- Prev button wrapper: add a class for navigation -->
-              <div class="blog-prev cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                  <rect
-                    width="30"
-                    height="30"
-                    rx="15"
-                    transform="matrix(-1 0 0 1 30 0)"
-                    fill="url(#paint0_linear_322_1305)"
-                  />
-                  <path
-                    d="M17.5 8.75L11.25 15L17.5 21.25"
-                    stroke="white"
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_322_1305"
-                      x1="8.5"
-                      y1="4"
-                      x2="25.5"
-                      y2="30"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#7C3BAF" />
-                      <stop offset="1" stop-color="#E61C42" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-  
-              <!-- Swiper container: show 3 slides at once -->
-              <div class="swiper blog-swiper w-full">
-                <div class="swiper-wrapper">
-                  <!-- Slide 1 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 1
-                    </div>
-                  </div>
-                  <!-- Slide 2 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 2
-                    </div>
-                  </div>
-                  <!-- Slide 3 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 3
-                    </div>
-                  </div>
-                  <!-- Slide 4 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 4
-                    </div>
-                  </div>
-                  <!-- Slide 5 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 5
-                    </div>
-                  </div>
-                  <!-- Slide 6 -->
-                  <div class="swiper-slide">
-                    <div
-                      class="bg-white shadow-[0px_4px_24px_-1px_rgba(124,59,175,0.60)] h-80 w-full flex items-center justify-center font-bold text-xl"
-                    >
-                      Blog - 6
-                    </div>
-                  </div>
-                  <!-- Add more slides here if needed, following same structure -->
-                </div>
-              </div>
-  
-              <!-- Next button wrapper: add a class for navigation -->
-              <div class="blog-next cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
-                  <rect
-                    x="0.03125"
-                    width="30"
-                    height="30"
-                    rx="15"
-                    fill="url(#paint0_linear_322_1302)"
-                  />
-                  <path
-                    d="M12.5312 8.75L18.7812 15L12.5312 21.25"
-                    stroke="white"
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_322_1302"
-                      x1="8.53125"
-                      y1="4"
-                      x2="25.5312"
-                      y2="30"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#7C3BAF" />
-                      <stop offset="1" stop-color="#E61C42" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
+              <?php echo do_shortcode( '[elementor-template id="1908"]'); ?>
             </div>
           </div>
         </div>
       </div>
-  
       <!-- Background Decoration -->
-      <div class="absolute right-0 top-0 w-[468px] h-[634px] overflow-hidden pointer-events-none">
+      <div
+        class="absolute right-0 top-0 w-[468px] h-[634px] overflow-hidden pointer-events-none"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="468"
@@ -3784,8 +3614,9 @@ Transformers
           </defs>
         </svg>
       </div>
-  
-      <div class="absolute left-0 top-[30%] w-[407px] h-[823px] overflow-hidden pointer-events-none">
+      <div
+        class="absolute left-0 top-[30%] w-[407px] h-[823px] overflow-hidden pointer-events-none"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="407"
@@ -3825,7 +3656,9 @@ Transformers
           </defs>
         </svg>
       </div>
-      <div class="hidden lg:block absolute left-[30%] top-[30%] w-[821px] h-[744px] overflow-hidden pointer-events-none">
+      <div
+        class="hidden lg:block absolute left-[30%] top-[30%] w-[821px] h-[744px] overflow-hidden pointer-events-none"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="821"
