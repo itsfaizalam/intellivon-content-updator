@@ -2983,7 +2983,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/6-Apache-Hadoop.png" alt="Apache Hadoop" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/6-Apache-Hadoop.png" alt="Apache Hadoop" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache Hadoop
                     <span
@@ -2995,7 +2995,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/6-Apache-Spark.png" alt="Apache Spark" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/6-Apache-Spark.png" alt="Apache Spark" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache Spark
                     <span
@@ -3007,7 +3007,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/11-Amazon-S3.png" alt="Amazon S3 (AWS)" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/11-Amazon-S3.png" alt="Amazon S3 (AWS)" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Amazon S3 (AWS)
                     <span
@@ -3019,7 +3019,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/2-Google-bigquery.png" alt="Google BigQuery" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/2-Google-bigquery.png" alt="Google BigQuery" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Google BigQuery
                     <span
@@ -3031,7 +3031,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/4-Snowflake.png" alt="Snowflake" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/4-Snowflake.png" alt="Snowflake" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Snowflake
                     <span
@@ -3058,7 +3058,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/9-Apache-Kafka.png" alt="Apache Kafka" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/9-Apache-Kafka.png" alt="Apache Kafka" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache Kafka
                     <span
@@ -3070,7 +3070,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/5-Tensorflow.png" alt="TensorFlow" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/5-Tensorflow.png" alt="TensorFlow" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     TensorFlow
                     <span
@@ -3082,7 +3082,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/3-PySpark.png" alt="PySpark" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/3-PySpark.png" alt="PySpark" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     PySpark
                     <span
@@ -3094,7 +3094,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/9-Azure-Machine-Learning.png" alt="Microsoft Azure Machine Learning" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/9-Azure-Machine-Learning.png" alt="Microsoft Azure Machine Learning" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Microsoft Azure Machine Learning
                     <span
@@ -3106,7 +3106,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/1-Databricks.png" alt="Databricks" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/1-Databricks.png" alt="Databricks" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Databricks
                     <span
@@ -3133,7 +3133,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/5-Apache-NiFi.png" alt="Apache NiFi" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/5-Apache-NiFi.png" alt="Apache NiFi" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache NiFi
                     <span
@@ -3145,7 +3145,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Talend.png" alt="Talend" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Talend.png" alt="Talend" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Talend
                     <span
@@ -3157,7 +3157,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Apache-Airflow.png" alt="Apache Airflow" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Apache-Airflow.png" alt="Apache Airflow" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache Airflow
                     <span
@@ -3169,7 +3169,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/1-Informatica.png" alt="Informatica" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/1-Informatica.png" alt="Informatica" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Informatica
                     <span
@@ -3181,7 +3181,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/9-Fivetran.png" alt="Fivetran" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/9-Fivetran.png" alt="Fivetran" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Fivetran
                     <span
@@ -3208,7 +3208,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-tableau.png" alt="Tableau" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-tableau.png" alt="Tableau" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Tableau
                     <span
@@ -3220,7 +3220,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Power-BI.png" alt="Power BI" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/8-Power-BI.png" alt="Power BI" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Power BI
                     <span
@@ -3232,7 +3232,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/2-Looker.png" alt="Looker" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/2-Looker.png" alt="Looker" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Looker
                     <span
@@ -3244,7 +3244,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/3-Qlik-Sense.png" alt="Qlik" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/3-Qlik-Sense.png" alt="Qlik" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Qlik
                     <span
@@ -3256,7 +3256,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/5-D3.js.png" alt="D3.js" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/5-D3.js.png" alt="D3.js" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     D3.js
                     <span
@@ -3283,7 +3283,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/6-Apache-Ranger.png" alt="Apache Ranger" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/6-Apache-Ranger.png" alt="Apache Ranger" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Apache Ranger
                     <span
@@ -3295,7 +3295,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/3-AWS-IAM.png" alt="AWS (IAM)" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/3-AWS-IAM.png" alt="AWS (IAM)" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     AWS (IAM)
                     <span class="text-[12px] font-normal text-black2 block"
@@ -3307,7 +3307,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/2-Collibra.png" alt="Collibra" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/2-Collibra.png" alt="Collibra" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Collibra
                     <span
@@ -3319,7 +3319,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/08/6-Microsoft-Azure-Purview.png" alt="Microsoft Azure Purview" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/08/6-Microsoft-Azure-Purview.png" alt="Microsoft Azure Purview" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Microsoft Azure Purview
                     <span
@@ -3331,7 +3331,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/3-Okta.png" alt="Okta" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/3-Okta.png" alt="Okta" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Okta
                     <span
@@ -3358,7 +3358,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-AWS.png" alt="Amazon Web Services (AWS)" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-AWS.png" alt="Amazon Web Services (AWS)" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Amazon Web Services (AWS)
                     <span
@@ -3370,7 +3370,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Microsoft-Azure.png" alt="Microsoft Azure" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Microsoft-Azure.png" alt="Microsoft Azure" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Microsoft Azure
                     <span
@@ -3382,7 +3382,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Google-Cloud-Platform.png" alt="Google Cloud Platform (GCP)" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Google-Cloud-Platform.png" alt="Google Cloud Platform (GCP)" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Google Cloud Platform (GCP)
                     <span
@@ -3394,7 +3394,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/7-IBM-Cloud.png" alt="IBM Cloud" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/7-IBM-Cloud.png" alt="IBM Cloud" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     IBM Cloud
                     <span
@@ -3406,7 +3406,7 @@
                   class="technology-edge w-[260px] lg:w-[280px] rounded-full flex items-center gap-3 px-6 py-3 bg-white shadow-sm"
                 >
                   <!-- SVG -->
-                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Oracle-Cloud.png" alt="Oracle Cloud" width="" height="">
+                   <img src="https://intellivon.com/wp-content/uploads/2026/07/10-Oracle-Cloud.png" alt="Oracle Cloud" width="40" height="40">
                   <h4 class="text-base md:text-xl font-medium text-black2">
                     Oracle Cloud
                     <span
